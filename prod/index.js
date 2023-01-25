@@ -10,10 +10,28 @@
 // }
 // console.log(result(add(6,3))); //função sem retorno = void/undefinied
 //OBJETO
-const user = {
-    firstName: "João",
-    lastName: "Paixão",
-    age: 28
-};
-user.lastName = "dos Anjos";
-console.log(user.lastName);
+// const user:{
+//     firstName:string;
+//     lastName:string;
+//     age:number;
+// } = {
+//     firstName: "João",
+//     lastName: "Paixão",
+//     age: 28
+// }
+// user.lastName = "dos Anjos"
+// console.log(user.lastName);
+//UNKNOWN
+// let itemInput: unknown
+// let itemName: string
+// itemInput = 10
+// itemInput = "Apple"
+// if(itemInput === "string"){
+//     itemName = itemInput
+// }
+//NEVER
+function generateError(message, code) {
+    throw { message: message, errorCode: code };
+}
+generateError("The application crashed", 500);
+console.log(generateError("The application crashed", 500));
