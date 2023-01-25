@@ -15,15 +15,27 @@
 // console.log(result(add(6,3))); //função sem retorno = void/undefinied
  
 //OBJETO
-const user:{
-    firstName:string;
-    lastName:string;
-    age:number;
-} = {
-    firstName: "João",
-    lastName: "Paixão",
-    age: 28
-}
+// const user:{
+//     firstName:string;
+//     lastName:string;
+//     age:number;
+// } = {
+//     firstName: "João",
+//     lastName: "Paixão",
+//     age: 28
+// }
 
-user.lastName = "dos Anjos"
-console.log(user.lastName);
+// user.lastName = "dos Anjos"
+// console.log(user.lastName);
+
+//UNKNOWN
+// let itemInput: unknown
+// let itemName: string
+
+// itemInput = 10
+// itemInput = "Apple"
+
+// if(itemInput === "string"){
+//     itemName = itemInput
+// }
+
